@@ -1,0 +1,26 @@
+out/
+build/
+classes/
+target/
+session_data/
+logs/
+*.jar
+*.war
+*.class
+
+#ide-eclipse
+.project
+.settings
+.classpath
+.idea/
+*.iml
+*.eml
+*.log
+
+#mac os
+.DS_Store
+.settings/
+node_modules/
+upload/
+package.json
+package-lock.json
