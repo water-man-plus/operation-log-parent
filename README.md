@@ -304,6 +304,8 @@ String getUserById(Integer id){
 > 更改用户信息，名称: yyq-old --> yyq-plus，年龄: 28 --> 29，状态：禁用 --> 启用
 
 # 代码实现架构
-持续补充
+## 仓库模块说明
+- operation-log 操作日志组件核心代码
+- operation-log-starter 操作日志starter模块，支持spring-boot和普通spring项目
 # 使用手册
 持续补充
