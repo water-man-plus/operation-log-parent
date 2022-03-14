@@ -307,5 +307,6 @@ String getUserById(Integer id){
 ## 仓库模块说明
 - operation-log 操作日志组件核心代码
 - operation-log-starter 操作日志starter模块，支持spring-boot和普通spring项目
+持续补充
 # 使用手册
 持续补充
