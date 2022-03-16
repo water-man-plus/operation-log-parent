@@ -1,7 +1,7 @@
 # operation-log-parent
 操作日志生成组件（操作日志又称系统变更日志、审计日志等）
 
-# 背景
+# 场景
 不管是B端还是C端系统，在用户使用过程中，都会涉及到对相关资源进行更新或者删除的操作，如电商系统中商家修改商品售价，OA系统中管理员修改用户的权限等，数据库中一般记录的都是资源的最后修改时间和修改人。第一是可读性比较差，只能是程序员能够查询使用，第二是缺少修改前的值，无法对数据进行追溯。
 # 问题
 1. 如何生成可读性高的操作日志
@@ -132,29 +132,15 @@ public static class MarketOperatorGetServiceImpl implements OperatorGetService {
 ```
     @Data
     public class User {
-        /**
-         * 用户id
-         */
+        //用户id
         private Integer id;
-        /**
-         * 用户所属部门id
-         */
+        //用户所属部门id
         private Long departmentId;
-
-        /**
-        * 用户名称
-        */
+        //用户名称
         private String name;
-        
-        /**
-        * 用户年龄
-        */
+        //用户年龄
         private Integer age;
-        
-        /**
-        *  用户状态
-        *  0-禁用，1-启用
-        */
+        //用户状态，0-禁用，1-启用  
         private Integer status;
         
         private Date createdTime;
